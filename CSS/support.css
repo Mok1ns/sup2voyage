@@ -229,20 +229,17 @@ h1{
 }
 
 @media screen and (max-width: 768px) {
-    /* Reset global margins and paddings */
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
     
-    /* Prevent horizontal scrolling */
     html, body {
         overflow-x: hidden;
         width: 100%;
     }
 
-    /* Navigation adjustments */
     .navigation {
         flex-direction: column;
         align-items: center;
@@ -250,35 +247,31 @@ h1{
 
     .logo {
         margin-right: -40px;
-        width: 200px;  /* Adjust logo size */
+        width: 200px;
         height: auto;
     }
 
-    /* Burger menu adjustments */
     .burger {
         display: block;
         cursor: pointer;
-        width: 150px;  /* Adjust burger size */
+        width: 150px;
         margin-left: 150px;
     }
-    div.bas{
+    div.bas {
         width: 103%;
         margin-top: 70px;
     }
-    
-        /* Adjusting the social media section */
+
     .social-media img {
         width: 35px;
         height: 35px;
     }
 
-    /* Map resizing */
     .map iframe {
         width: 100%;
-        height: 250px;  /* Adjust map iframe size */
+        height: 250px;
     }
 
-    /* Contact info section adjustments */
     .contact-info {
         width: 100%;
         padding: 20px;
@@ -289,37 +282,34 @@ h1{
         width: 90%;
     }
 
-    /* Footer section adjustments */
     .social-section {
         gap: 30px;
     }
 
     .avaible {
-        width: 100px;  /* Adjust available image size */
+        width: 100px;
     }
 
-    /* Add proper spacing for the footer */
     p {
-        font-size: 14px;  /* Adjust footer text size */
+        font-size: 14px;
         text-align: center;
         padding: 10px 0;
     }
 
-    div.burger{
+    div.burger {
         display: none;
     }
 
-    .barret{
+    .barret {
         width: 200px;
         margin-left: 110px;
     }
 
-    div.support{
+    div.support {
         width: 400px;
     }
 
-    button.envoyer{
+    button.envoyer {
         margin-left: 10px;
     }
-
 }

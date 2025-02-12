@@ -396,20 +396,17 @@ p{
 
 
 @media screen and (max-width: 768px) {
-    /* Reset global margins and paddings */
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
     
-    /* Prevent horizontal scrolling */
     html, body {
         overflow-x: hidden;
         width: 100%;
     }
 
-    /* Navigation adjustments */
     .navigation {
         flex-direction: column;
         align-items: center;
@@ -417,33 +414,29 @@ p{
 
     .logo {
         margin-right: -40px;
-        width: 200px;  /* Adjust logo size */
+        width: 200px;
         height: auto;
     }
 
-    /* Burger menu adjustments */
     .burger {
         display: block;
         cursor: pointer;
-        width: 150px;  /* Adjust burger size */
+        width: 150px;
         margin-left: 150px;
     }
 
-    /* Adjust text size */
     .text h1 {
-        font-size: 20px;  /* Adjust heading size */
+        font-size: 20px;
     }
 
     .text h2 {
         font-size: 16px;
     }
 
-    /* Buttons adjustments */
     .boutton {
         flex-direction: row;
         gap: 50px;
     }
-
 
     button.Reserver,
     button.Qui,
@@ -452,33 +445,30 @@ p{
         width: 40%;
         height: 50px;
         padding: 10px;
-        font-size: 12px;  /* Adjust button text size */
+        font-size: 12px;
         margin-top: 100px;
     }
 
-    /* Horizontal lines (hr) fix */
     hr.hrhr {
         width: 100%;
     }
 
-    hr.cote{
+    hr.cote {
         display: none;
     }
 
-    /* Image resizing */
     img.goose, img.goose2 {
-        width: 200px;  /* Reduce the size of images */
+        width: 200px;
         height: auto;
         margin-bottom: 20px;
     }
 
-    img.goose3{
-        width: 250px;  /* Reduce the size of images */
+    img.goose3 {
+        width: 250px;
         height: auto;
         margin-bottom: 20px;
     }
 
-    /* Info box adjustments */
     .info, .info2, .info3, .info4 {
         flex-direction: column;
         align-items: center;
@@ -487,15 +477,15 @@ p{
         padding: 20px;
     }
 
-    div.info2{
+    div.info2 {
         margin-top: 200px;
     }
 
-    div.info3{
+    div.info3 {
         margin-top: 60px;
     }
 
-    div.info4{
+    div.info4 {
         margin-top: 50px;
         background-position: 1000px;
         background-size: cover;
@@ -504,22 +494,19 @@ p{
 
     .info iframe {
         width: 100%;
-        height: 250px;  /* Adjust video iframe size */
+        height: 250px;
     }
 
-    /* Adjusting the social media section */
     .social-media img {
         width: 35px;
         height: 35px;
     }
 
-    /* Map resizing */
     .map iframe {
         width: 100%;
-        height: 250px;  /* Adjust map iframe size */
+        height: 250px;
     }
 
-    /* Contact info section adjustments */
     .contact-info {
         width: 100%;
         padding: 20px;
@@ -530,45 +517,40 @@ p{
         width: 90%;
     }
 
-    /* Footer section adjustments */
     .social-section {
         gap: 30px;
     }
 
     .avaible {
-        width: 100px;  /* Adjust available image size */
+        width: 100px;
     }
 
-    div.burger{
+    div.burger {
         display: none;
     }
 
-    /* Adjust background image for mobile */
     .backback {
         background-size: cover;
         background-position: center;
-        height: 3600px;  /* Allow background image to adapt */
+        height: 3600px;
         width: 103%;
         margin-top: 100px;
     }
 
-    /* Info text adjustments */
     .texte {
-        font-size: 14px;  /* Adjust text size */
-        margin-left: 0;  /* Remove left margin for better readability */
+        font-size: 14px;
+        margin-left: 0;
         text-align: center;
     }
 
-    /* Add proper spacing for the footer */
     p {
-        font-size: 14px;  /* Adjust footer text size */
+        font-size: 14px;
         text-align: center;
         padding: 10px 0;
     }
 
-    div.bas{
+    div.bas {
         width: 103%;
         margin-top: 70px;
     }
-
 }

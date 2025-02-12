@@ -292,20 +292,17 @@ h1.titre{
 }
 
 @media screen and (max-width: 768px) {
-    /* Reset global margins and paddings */
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
     
-    /* Prevent horizontal scrolling */
     html, body {
         overflow-x: hidden;
         width: 100%;
     }
 
-    /* Navigation adjustments */
     .navigation {
         flex-direction: column;
         align-items: center;
@@ -313,35 +310,99 @@ h1.titre{
 
     .logo {
         margin-right: -40px;
-        width: 200px;  /* Adjust logo size */
+        width: 200px;
         height: auto;
     }
 
-    /* Burger menu adjustments */
     .burger {
         display: block;
         cursor: pointer;
-        width: 150px;  /* Adjust burger size */
+        width: 150px;
         margin-left: 150px;
     }
-    div.bas{
-        width: 103%;
-        margin-top: 70px;
+
+    .text h1 {
+        font-size: 20px;
     }
-    
-        /* Adjusting the social media section */
+
+    .text h2 {
+        font-size: 16px;
+    }
+
+    .boutton {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    button.Reserver,
+    button.Qui,
+    button.Contact,
+    button.Aide {
+        width: 40%;
+        height: 50px;
+        padding: 10px;
+        font-size: 12px;
+        margin-top: 100px;
+    }
+
+    hr.hrhr {
+        width: 100%;
+    }
+
+    hr.cote {
+        display: none;
+    }
+
+    img.goose, img.goose2 {
+        width: 200px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    img.goose3 {
+        width: 250px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .info, .info2, .info3, .info4 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    div.info2 {
+        margin-top: 200px;
+    }
+
+    div.info3 {
+        margin-top: 60px;
+    }
+
+    div.info4 {
+        margin-top: 50px;
+        background-position: 1000px;
+        background-size: cover;
+        height: 850px;
+    }
+
+    .info iframe {
+        width: 100%;
+        height: 250px;
+    }
+
     .social-media img {
         width: 35px;
         height: 35px;
     }
 
-    /* Map resizing */
     .map iframe {
         width: 100%;
-        height: 250px;  /* Adjust map iframe size */
+        height: 250px;
     }
 
-    /* Contact info section adjustments */
     .contact-info {
         width: 100%;
         padding: 20px;
@@ -352,95 +413,72 @@ h1.titre{
         width: 90%;
     }
 
-    /* Footer section adjustments */
     .social-section {
         gap: 30px;
     }
 
     .avaible {
-        width: 100px;  /* Adjust available image size */
+        width: 100px;
     }
 
-    /* Add proper spacing for the footer */
-    p {
-        font-size: 14px;  /* Adjust footer text size */
-        text-align: center;
-        padding: 10px 0;
-    }
-
-    div.burger{
+    div.burger {
         display: none;
     }
 
-    hr.barret{
+    hr.barret {
         width: 200px;
         margin-left: 115px;
     }
 
-    div.activites{
+    div.activites {
         grid-template-columns: repeat(1, 1fr);
         height: 3700px;
         display: block;
     }
 
-    div.activites .chien{
+    div.activites .chien {
         margin-left: -5px;
     }
 
-    div.activites .paysage{
-        margin-left: px;
-    }
-
-    div.activites .aurora{
+    div.activites .aurora {
         margin-left: -30px;
     }
 
-    div.activites .ski{
+    div.activites .ski {
         margin-left: -15px;
     }
 
-    div.activites .paysage{
+    div.activites .paysage {
         margin-left: -18px;
     }
 
-    div.activites .aurora2{
+    div.activites .aurora2 {
         margin-left: -22px;
     }
 
-    div.un{
+    div.un {
         margin-right: 1000px;
     }
 
-    div.activites img.chien{
+    div.activites img.chien {
         width: 350px;
     }
     
-    div.activites .un{
+    div.activites .un,
+    div.activites .deux,
+    div.activites .trois,
+    div.activites .quatre,
+    div.activites .cinq,
+    div.activites .six {
         margin: 15px;
     }
 
-    div.activites .deux{
-        margin: 15px;
-    }
-
-    div.activites .trois{
-        margin: 15px;
-    }
-
-    div.activites .quatre{
-        margin: 15px;
-    }
-
-    div.activites .cinq{
-        margin: 15px;
-    }
-
-    div.activites .six{
-        margin: 15px;
-    }
-
-    body{
+    body {
         background-size: cover;
     }
 
+    div.bas {
+        width: 103%;
+        margin-top: 70px;
+    }
 }
