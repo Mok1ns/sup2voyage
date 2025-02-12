@@ -1,0 +1,570 @@
+div.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.navigation ul li{
+    list-style-type: none;
+}
+
+div.navigation ul li img.logo{
+    height : 126px;
+    width: 275px;
+    
+}
+
+div.navigation ul li img.responsive{
+    filter:invert();
+    height: 60px;
+
+}
+
+body.reserver{
+    background-color: #34495E;
+    color: white;
+    background-image: url("../Images/northern-lights-5947608_1280.jpg");
+    background-size: cover;
+}
+
+.dispo{
+    background-color: rgba(0, 0, 0, 0.596);
+    height: 1000px;
+    text-align: center;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.inp input, 
+.inp select {
+    width: 250px;
+    height: 45px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #1f693e;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    color: #2c3e50;
+    outline: none;
+    transition: 0.3s;
+}
+
+.inp input:focus, 
+.inp select:focus {
+    border-color: #1e663c;
+    box-shadow: 0 0 10px rgba(35, 99, 62, 0.5);
+}
+
+.inp button {
+    background: linear-gradient(135deg, #225336, #34c06e);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.inp button:hover {
+    background: linear-gradient(135deg, #1f693e, #2aa85f);
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#content button {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+}
+
+#content button:hover {
+    background: linear-gradient(135deg, #c0392b, #e74c3c);
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.animationtitre{
+    opacity: 0; 
+    transform: translateY(20px); 
+    animation: fadeIn 1.5s ease-out forwards; 
+    transform: translate(-50%, -50%);
+}
+
+/*Animation de fade*/
+@keyframes fadeIn { 
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.diff {
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 50px;
+    background-image: url("../Images/northern-lights-5947608_1280.jpg");
+    background-size: cover;
+}
+
+.diff ul li{
+    list-style-type: none;
+}
+
+h1.recom{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.chien{
+    width: 400px;
+    margin-left: -40px;
+}
+
+.paysage{
+    width: 380px;
+    margin-left: -25px;
+
+}
+.diff h1{
+    text-align: center;
+    margin-right: 20px;
+}
+.aurora{
+    width: 385px;
+    margin-left: -25px;
+    
+}
+
+img.avis{
+    width: 150px;
+    margin-left: 0px;
+    margin-top: 0px ;
+}
+
+img.avis2{
+    width: 150px;
+    margin-left: 0px;
+    margin-top: -5px ;
+}
+
+img.avis3{
+    width: 150px;
+    margin-left: 0px;
+    margin-top: 20px ;
+}
+
+.diff a {
+    display: block;
+    width: 80%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.diff a.a1 {
+    background-color: red;
+
+}
+
+.diff a.a2{
+    background-color: red;
+
+}
+
+.diff a.a3{
+    background-color: red;
+
+}
+
+.diff :hover{
+    transform: scale(1.02);
+    transition: 0.1;
+}
+
+.diff img{
+    border-radius: 10px;
+}
+
+
+div.un, div.deux, div.trois {
+    background-color: rgba(44, 62, 80, 0.6);  
+    margin: 20px;
+    border-radius: 20px;
+    width: 400px;  
+    height: 600px; 
+    padding: 30px;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 100px;
+}
+
+
+.hidden{
+    display: none;
+}
+
+#content {
+    padding: 20px;
+    background-color: #34495e71;
+    border-radius: 10px;
+    margin-top: 35px;
+    height: 700px;
+    width: 1500px;
+    margin-left: 155px;
+}
+
+
+#menu {
+    display: none;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.425);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -50px;
+    height: 100px;
+    margin-right: 80px;
+}
+
+#menu li {
+    list-style: none;
+    margin: 10px;
+    background-color: #34495E;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 200px;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    margin: 100px;
+    text-align: center;
+}
+
+
+#menu.show {
+    display: flex;
+}
+
+.burger {
+    width: 200px;
+    height: 200px;
+    background-image: url("../Images/opengauche.png");
+    background-size: cover;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-right: -60px;
+    filter: brightness(2);
+}
+
+
+.burger.active {
+    background-image: url("../Images/opendroite.png");
+}
+
+.barret{
+    width: 500px;
+}
+
+.barrets{
+    width: 500px;
+    margin-top: 10px;
+}
+.bas {
+    background-color: rgb(30, 94, 49);
+    width: 101%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: -10px;
+}
+
+.barre {
+    width: 80%;
+    border: 1px solid white;
+    margin: 10px 0;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-info {
+    color: white;
+    text-align: left;
+    flex: 1;
+}
+
+.map iframe {
+    border-radius: 10px;
+    flex: 1;
+}
+
+.social-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.avaible {
+    width: 150px;
+}
+
+.payement {
+    background: url('../Images/snowshoeing_troms_finnmark_northern_norway_photo_kari_schibevaag_visit_tromso_37639b92-66f9-4f8f-85e7-1b801fd70f12.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.premier_fond {
+    background: rgba(52, 73, 94, 0.9);
+    border-radius: 15px;
+    width: 500px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 630px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+}
+
+p{
+    color: white;
+}
+
+.boutton_payement p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.boutton_payement input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.boutton_payement button {
+    width: 100%;
+    background: #f39c12;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.boutton_payement button:hover {
+    background: #e67e22;
+}
+
+.az{
+    width: 500px;
+}
+.b{
+    opacity: 0; 
+    transform: translateY(20px); 
+    animation: fadeIn 1.5s ease-out forwards; 
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+/*Animation de fade*/
+@keyframes fadeIn { 
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Reset global margins and paddings */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Prevent horizontal scrolling */
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    /* Navigation adjustments */
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: -40px;
+        width: 200px;  /* Adjust logo size */
+        height: auto;
+    }
+
+    /* Burger menu adjustments */
+    .burger {
+        display: block;
+        cursor: pointer;
+        width: 150px;  /* Adjust burger size */
+        margin-left: 150px;
+    }
+    div.bas{
+        width: 103%;
+        margin-top: 70px;
+    }
+    
+        /* Adjusting the social media section */
+    .social-media img {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Map resizing */
+    .map iframe {
+        width: 100%;
+        height: 250px;  /* Adjust map iframe size */
+    }
+
+    /* Contact info section adjustments */
+    .contact-info {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .barre {
+        width: 90%;
+    }
+
+    /* Footer section adjustments */
+    .social-section {
+        gap: 30px;
+    }
+
+    .avaible {
+        width: 100px;  /* Adjust available image size */
+    }
+
+    /* Add proper spacing for the footer */
+    p {
+        font-size: 14px;  /* Adjust footer text size */
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    div.burger{
+        display: none;
+    }
+
+    #content {
+        padding: 20px;
+        background-color: #34495e71;
+        border-radius: 10px;
+        margin-top: 35px;
+        height: 650px;
+        width: 400px;
+        margin-left: 15px;
+
+    }
+
+    #content img{
+        display: none ;
+    }
+
+    
+    div.inp{
+        margin-top: 40px;
+    }
+
+    div.diff{
+        flex-direction: column;
+        height: 2200px;
+    }
+
+    div.premier_fond{
+        margin-left: 15px;
+        width: 400px;
+        margin-bottom: 100px;
+    }
+
+    img.chien{
+        margin-left: -30px;
+    }
+
+    img.paysage{
+        margin-left: -20px;
+    }
+
+    img.aurora{
+        margin-left: -22px;
+    }
+}

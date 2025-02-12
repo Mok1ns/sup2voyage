@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/reserver.css">
+</head>
+<body class="reserver">
+    <div class="navigation">
+        <ul>
+            <li><a href="index.html"><img src="Images/norwegian-vector-logo-removebg-preview.png" alt="" class="logo"></a></li>
+        </ul>
+        <div id="burger" class="burger"></div> 
+        <ul id="menu" class="hidden">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="reserver.html">Réserver</a></li>
+            <li><a href="photo.html">Photos</a></li>
+            <li><a href="activites.html">Activités</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="dispo">
+        <hr class="barret">
+        <h1 class="animationtitre">Verifier les disponibilités</h1>
+        <hr class="barret">
+        <div class="inp">
+            <input type="date" class="dates">
+            <input type="number" placeholder="Combien serez vous ?" id="personnes">
+            <select name="activit" id="activitai">
+                <option value="">--Activité désirée--</option>
+                <option value="Balade en chien de traineau">Balade en chien de traineau</option>
+                <option value="Paysages Inoubliables">Paysages Inoubliables</option>
+                <option value="Excursion pour les aurores boreales">Aurores Boreales</option>
+                <option value="Skier sous les aurores boréales à Lyngen Alps">Ski</option>
+                <option value="Faire un road trip sur l'Atlantic Road">Road Trip</option>
+                <option value="Les îles Lofoten et leurs villages de pêcheurs">Visite des iles</option>
+              </select>
+              <button id="toggle">Valider</button>
+        </div>
+        <div class="hidden" id="content">
+            <hr>
+            <h2 id="sortie"></h2>
+            <hr>
+            <div id="image_sortie" class="image_sortie"></div>
+            <br>
+            <input type="checkbox">Je comprend les risques & j'accepte les conditions d'utilisation
+            <div class="div_reserver"><button class="bouton_reserver" onclick="window.location.href = 'payement.html'">Réserver</button></div>
+            
+        </div>
+    </div>
+    <hr class="barrets">
+    <h1 class="recom">Recommandations</h1>
+    <hr class="barrets">
+    <div class="diff">
+        <div class="un">
+            <ul >
+                <li><img src="Images/4d99709e-a680-436e-9afe-1becf6d2219f.webp" alt="" class="chien"></li>
+                <h1>Balade en chien de traineau</h1>
+                <p>Glissez à travers des paysages enneigés, porté par l’énergie de chiens enthousiastes sous un ciel nordique immaculé. Bien plus qu’une simple excursion, c’est une immersion totale dans la nature arctique pour une aventure inoubliable.</p>        
+                <img id="traineau" src="Images/image_2025-02-05_231104865-removebg-preview.png" alt="" class="avis">
+                <br>
+                <br>
+                <a href="activites.html" class="a1">Aller vers l'activité</a>
+            </ul>
+        </div>
+        <div class="deux">
+            <ul>
+                <li><img src="Images/Stegastein.jpg" alt="" class="paysage"></li>
+                <h1>Paysages inoubliables</h1>
+                <p>Plongez au cœur des décors nordiques les plus spectaculaires ! Entre fjords majestueux, montagnes enneigées et vallées sauvages, chaque sentier vous révèle la beauté brute de la Norvège. Admirez des panoramas à couper le souffle, où la nature règne en maître et où chaque instant devient un souvenir impérissable.</p>
+                <img src="Images/image_2025-02-05_231104865-removebg-preview.png" alt="" class="avis2">
+                <br>
+                <br>
+                <a href="activites.html" class="a2">Aller vers l'activité</a>
+            </ul>
+        </div>
+        <div class="trois">
+            <ul>
+                <li><img src="Images/1518.jpg" alt="" class="aurora"></li>
+                <h1>Excursion pour les aurores boreales</h1>
+                <p>Assistez à l’un des plus beaux phénomènes naturels au monde : les aurores boréales. Dansez avec les lumières du nord sous un ciel étoilé, entouré de paysages enneigés et d’une atmosphère féérique.</p>
+                <img src="Images/image_2025-02-05_231104865-removebg-preview.png" alt="" class="avis3">
+                <br>
+                <br>
+                <a href="activites.html" class="a3">Aller vers l'activité</a>
+            </ul>
+        </div>
+    </div>
+    <div class="bas">
+        <hr class="barre">
+        <div class="content">
+            <div class="contact-info">
+                <h2>Contacts</h2>
+                <p>Téléphone : +33 6 12 32 45 65</p>
+                <p>Email : contact@norwegiantravel.com</p>
+                <p>Adresse : Borgtunvegen 3, 9010 Tromso, Norvège</p>
+                <br>
+                <h2>Horaires</h2>
+                <p>Lundi : 10h-14h ; 15h-18h</p>
+                <p>Mardi : 10h-14h ; 15h-18h</p>
+                <p>Mercredi : 12h-14h ; 15h-17h</p>
+                <p>Jeudi : 10h-14h ; 15h-18h</p>
+                <p>Vendredi : 10h-14h ; 15h-18h</p>
+                <p>Week-ends et jours feriées : fermée</p>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1385.8906579645468!2d18.97387484253198!3d69.67426779333677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45c4c467c4ebcb29%3A0xe22dd5c8ab307ec!2sBorgtunvegen%203%2C%209010%20Troms%C3%B8%2C%20Norv%C3%A8ge!5e0!3m2!1sfr!2sfr!4v1739038427432!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <hr class="barre">
+        <div class="social-section">
+            <div class="social-media">
+                <img src="Images/facebook.png" alt="Facebook">
+                <img src="Images/instagram.png" alt="Instagram">
+                <img src="Images/twitter.png" alt="Twitter">
+            </div>
+            <img src="Images/avaible.png" alt="Disponible" class="avaible">
+        </div>
+        <p>Conditions générales d´utilization | Conditions Générales de transport | Politiques de privacité | Cookies | Mode accéssibilité</p>
+        <p>2025 Norwegian. Veuillez noter qu'il s'agit du site de guide de Norwegian, c'est pourquoi la législation et les règles de Norwegian s'appliquent à tous les frais et/ou charges.</p>
+    </div>
+    <script src="JS/reserver.js"></script>
+</body>
+</html>

@@ -1,0 +1,574 @@
+
+div.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.navigation ul li{
+    list-style-type: none;
+    
+}
+
+div.navigation ul li img.logo{
+    height : 126px;
+    width: 275px;
+    
+}
+
+div.test{
+    background-color: white;
+
+}
+
+div.navigation ul li img.responsive{
+    filter:invert();
+    height: 60px;
+
+}
+
+
+div.body{
+    height: 790px;
+
+}
+
+body.index{
+    background-image: url(../Images/31238-3840x2160-desktop-4k-norway-wallpaper-photo.jpg);
+    background-size: 2000px;
+}
+
+
+div.text{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+div.boutton {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    height: 100px;
+    width: 100%;   
+}
+
+button.Reserver{
+    border-radius: 10px;
+    width: 300px;
+    height: 55px;
+    padding: 10px;
+    background-color: white;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+    background-image: url(../Images/ce84a14d1662148470a069f52baad97b.gif);
+    cursor: pointer;
+}
+
+
+button.Qui{
+    border-radius: 10px;
+    height: 55px;
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+    border-color: #34495E;
+    font-weight: bold;
+    margin: 10px;
+    background-image: url(../Images/cc1a75182191440e4ceeb437f0d0609a.gif);
+    color: white;
+    cursor: pointer;
+}
+
+button.Contact{
+    border-radius: 10px;
+    width: 300px;
+    height: 55px;
+    padding: 10px;
+    background-color: white;
+    border-color: #34495E;
+    font-weight: bold;
+    margin: 10px;
+    background-image: url(../Images/680a60d6f6ddb3c992e6d1b65b192ae5.gif);
+    background-position: 0px;
+    color: whitesmoke;
+    background-size: cover;
+    cursor: pointer;
+}
+
+button.Aide{
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 55px;
+    padding: 10px;
+    background-color: white;
+    border-color: #34495E;
+    font-weight: bold;
+    margin :10px;
+    color : white;
+    background-image: url(../Images/aurora-borealis-loop2.gif);
+    cursor: pointer;
+}
+
+
+
+#menu {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 400px;
+    top: 80px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.678);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    height: 500px;
+    margin-right: -40px;
+}
+
+#menu li {
+    list-style: none;
+    margin: 10px;
+    background-color: #34495E;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("../Images/236fa9c337f3db3f6eab41034f58d54b.gif");
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    margin: 100px;
+    text-align: center;
+}
+
+#menu.show {
+    display: flex;
+}
+ 
+
+.burger {
+    width: 200px;
+    height: 200px;
+    background-image: url("../Images/openbas.png");
+    background-size: cover;
+    cursor: pointer;
+    margin-top: -50px;
+    margin-right: -70px;
+    filter: brightness(2);
+}
+
+
+.burger.active {
+    background-image: url("../Images/open.png");
+}
+.bas {
+    background-color: rgb(30, 94, 49);
+    width: 101%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.cote{
+    width: 3px;
+    transform: rotate(); 
+    height: 200px; 
+    border: none; 
+    background-color: white;
+}
+
+.cote2{
+    width: 5px;
+    transform: rotate(); 
+    height: 200px; 
+    border: none; 
+    background-color: blue;
+    display: flex;
+
+}
+
+.backback{
+    background-color: red;
+    margin-bottom: -90px;
+    width: 101%;
+    margin-left: -10px;
+    height: 2400px;
+    background-image: url("../Images/shutterstock_Pinterest_Northern_Lights_Lofoten_Piotr_Krzeslak_98f03200-5341-47f6-b543-f377058406ae.jpg");
+    margin-top: 10px;
+}
+
+.hrhr{
+    width: 800px;
+}
+
+.hrh1{
+    text-align: center;
+    color: white;
+}
+
+.info {
+    background-color: #34495E;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 40px;
+    max-width: 80%;
+    margin: auto;
+    color: white;
+    border-radius: 120px;
+    position: relative;
+    top: 150px;
+    background-image: url("../Images/flou2.png");
+    background-size: cover;
+}
+
+.info2 {
+    background-color: #34495E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 80%;
+    margin: auto;
+    color: white;
+    border-radius: 120px;
+    margin-top: 300px;
+    background-image: url(../Images/moose-7571491_1280.webp);
+    background-size: cover;
+}
+
+.info3 {
+    background-color: #34495E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 80%;
+    margin: auto;
+    color: white;
+    border-radius: 120px;
+    margin-top: 130px;
+    background-image: url("../Images/flou3.png");
+    background-size: cover;
+    background-position: 10px;
+}
+
+
+.info4 {
+    background-color: #34495E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 80%;
+    margin: auto;
+    color: white;
+    border-radius: 120px;
+    margin-top: 120px;
+    background-image: url("../Images/flou1.png");
+    background-size: cover;
+    background-position: 0px;
+    height: 300px;
+}
+
+.info, .info2, .info3, .info4 {
+    background-color: rgba(52, 73, 94, 0.6);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+}
+
+.texte {
+    max-width: 55%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px; 
+}
+
+.text{
+    font-size: large;
+    opacity: 0; 
+    transform: translateY(20px); 
+    animation: fadeIn 1.5s ease-out forwards; 
+    transform: translate(-50%, -50%);
+}
+
+/*Animation de fade*/
+@keyframes fadeIn { 
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.texte h1 {
+    margin-bottom: 15px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+img.goose {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+
+img.goose2 {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    margin-right : 100px
+}
+
+img.goose3{
+    width: 400px;
+}
+
+p{
+    color: white;
+}
+.barre {
+    width: 80%;
+    border: 1px solid white;
+    margin: 10px 0;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-info {
+    color: white;
+    text-align: left;
+    flex: 1;
+}
+
+.map iframe {
+    border-radius: 10px;
+    flex: 1;
+}
+
+
+.social-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.avaible {
+    width: 150px;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Reset global margins and paddings */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Prevent horizontal scrolling */
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    /* Navigation adjustments */
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: -40px;
+        width: 200px;  /* Adjust logo size */
+        height: auto;
+    }
+
+    /* Burger menu adjustments */
+    .burger {
+        display: block;
+        cursor: pointer;
+        width: 150px;  /* Adjust burger size */
+        margin-left: 150px;
+    }
+
+    /* Adjust text size */
+    .text h1 {
+        font-size: 20px;  /* Adjust heading size */
+    }
+
+    .text h2 {
+        font-size: 16px;
+    }
+
+    /* Buttons adjustments */
+    .boutton {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+
+    button.Reserver,
+    button.Qui,
+    button.Contact,
+    button.Aide {
+        width: 40%;
+        height: 50px;
+        padding: 10px;
+        font-size: 12px;  /* Adjust button text size */
+        margin-top: 100px;
+    }
+
+    /* Horizontal lines (hr) fix */
+    hr.hrhr {
+        width: 100%;
+    }
+
+    hr.cote{
+        display: none;
+    }
+
+    /* Image resizing */
+    img.goose, img.goose2 {
+        width: 200px;  /* Reduce the size of images */
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    img.goose3{
+        width: 250px;  /* Reduce the size of images */
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    /* Info box adjustments */
+    .info, .info2, .info3, .info4 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    div.info2{
+        margin-top: 200px;
+    }
+
+    div.info3{
+        margin-top: 60px;
+    }
+
+    div.info4{
+        margin-top: 50px;
+        background-position: 1000px;
+        background-size: cover;
+        height: 850px;
+    }
+
+    .info iframe {
+        width: 100%;
+        height: 250px;  /* Adjust video iframe size */
+    }
+
+    /* Adjusting the social media section */
+    .social-media img {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Map resizing */
+    .map iframe {
+        width: 100%;
+        height: 250px;  /* Adjust map iframe size */
+    }
+
+    /* Contact info section adjustments */
+    .contact-info {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .barre {
+        width: 90%;
+    }
+
+    /* Footer section adjustments */
+    .social-section {
+        gap: 30px;
+    }
+
+    .avaible {
+        width: 100px;  /* Adjust available image size */
+    }
+
+    div.burger{
+        display: none;
+    }
+
+    /* Adjust background image for mobile */
+    .backback {
+        background-size: cover;
+        background-position: center;
+        height: 3600px;  /* Allow background image to adapt */
+        width: 103%;
+        margin-top: 100px;
+    }
+
+    /* Info text adjustments */
+    .texte {
+        font-size: 14px;  /* Adjust text size */
+        margin-left: 0;  /* Remove left margin for better readability */
+        text-align: center;
+    }
+
+    /* Add proper spacing for the footer */
+    p {
+        font-size: 14px;  /* Adjust footer text size */
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    div.bas{
+        width: 103%;
+        margin-top: 70px;
+    }
+
+}

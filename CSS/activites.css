@@ -1,0 +1,446 @@
+
+div.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.navigation ul li{
+    list-style-type: none;
+    
+}
+
+div.tout ul li{
+    list-style-type: none;
+}
+
+div.navigation ul li img.logo{
+    height : 126px;
+    width: 275px;
+    
+}
+
+div.navigation ul li img.responsive{
+    filter:invert();
+    height: 60px;
+
+}
+
+body{
+    background-image: url(../Images/lofoten-4827611_1280.jpg);
+    background-size: 3550px;
+}
+
+.premier{
+    background-color: red;
+    height: 1500px;
+    display: flex;
+}
+
+div.un, div.deux, div.trois, div.quatre, div.cinq, div.six{
+    background-color: rgba(44, 62, 80, 0.6);  
+    margin: 20px;
+    border-radius: 20px;
+    width: 400px; 
+    height: 600px; 
+    padding: 30px;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+p{
+    color: white;
+}
+
+.activites {
+    height: 1800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1700px; 
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 50px;
+    background-size: cover;
+
+}
+
+h1{
+    opacity: 0; 
+    transform: translateY(20px); 
+    animation: fadeIn 1.5s ease-out forwards; 
+    transform: translate(-50%, -50%);
+}
+
+/*Animation de fade*/
+@keyframes fadeIn { 
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.tout a {
+    display: block;
+    width: 80%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.chien{
+    width: 400px;
+    margin-left: -40px;
+}
+
+.ski{
+    width: 370px;
+    margin-left: -30px;
+}
+.paysage{
+    width: 380px;
+    margin-left: -25px;
+
+}
+.diff h1{
+    text-align: center;
+    margin-right: 20px;
+}
+.aurora2{
+    width: 385px;
+    margin-left: -25px;
+    
+}
+.aurora{
+    width: 400px;
+    margin-left: -40px;
+}
+
+
+img.etoile{
+    width: 150px;
+    margin-left: 0px;
+    margin-top: 0px ;
+}
+
+img.etoile2{
+    width: 150px;
+    margin-left: 0px;
+    margin-top: -5px ;
+}
+
+img.etoile3{
+    width: 150px;
+    margin-left: 0px;
+    margin-top: 20px ;
+}
+
+img.etoile6{
+    width: 150px;
+    margin-top: -10px;
+}
+
+
+#menu {
+    display: none;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.425);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -50px;
+    height: 100px;
+    margin-right: 80px;
+}
+
+#menu li {
+    list-style: none;
+    margin: 10px;
+    background-color: #34495E;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 200px;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    margin: 100px;
+    text-align: center;
+}
+
+
+#menu.show {
+    display: flex;
+}
+
+
+.burger {
+    width: 200px;
+    height: 200px;
+    background-image: url("../Images/opengauche.png");
+    background-size: cover;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-right: -60px;
+    filter: brightness(2);
+}
+
+
+.burger.active {
+    background-image: url("../Images/opendroite.png");
+}
+
+
+.activites :hover{
+    transform: scale(1.02);
+    transition: 0.1;
+}
+
+.activites img{
+    border-radius: 10px;
+}
+
+.bas {
+    background-color: rgb(30, 94, 49);
+    width: 101%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: -10px;
+}
+
+.barre {
+    width: 80%;
+    border: 1px solid white;
+    margin: 10px 0;
+}
+
+
+.barret{
+    width: 250px;
+}
+h1.titre{
+    color: white;
+    text-align: center;
+    margin-left: 00px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-info {
+    color: white;
+    text-align: left;
+    flex: 1;
+}
+
+.map iframe {
+    border-radius: 10px;
+    flex: 1;
+}
+
+
+.social-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.avaible {
+    width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Reset global margins and paddings */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Prevent horizontal scrolling */
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    /* Navigation adjustments */
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: -40px;
+        width: 200px;  /* Adjust logo size */
+        height: auto;
+    }
+
+    /* Burger menu adjustments */
+    .burger {
+        display: block;
+        cursor: pointer;
+        width: 150px;  /* Adjust burger size */
+        margin-left: 150px;
+    }
+    div.bas{
+        width: 103%;
+        margin-top: 70px;
+    }
+    
+        /* Adjusting the social media section */
+    .social-media img {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Map resizing */
+    .map iframe {
+        width: 100%;
+        height: 250px;  /* Adjust map iframe size */
+    }
+
+    /* Contact info section adjustments */
+    .contact-info {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .barre {
+        width: 90%;
+    }
+
+    /* Footer section adjustments */
+    .social-section {
+        gap: 30px;
+    }
+
+    .avaible {
+        width: 100px;  /* Adjust available image size */
+    }
+
+    /* Add proper spacing for the footer */
+    p {
+        font-size: 14px;  /* Adjust footer text size */
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    div.burger{
+        display: none;
+    }
+
+    hr.barret{
+        width: 200px;
+        margin-left: 115px;
+    }
+
+    div.activites{
+        grid-template-columns: repeat(1, 1fr);
+        height: 3700px;
+        display: block;
+    }
+
+    div.activites .chien{
+        margin-left: -5px;
+    }
+
+    div.activites .paysage{
+        margin-left: px;
+    }
+
+    div.activites .aurora{
+        margin-left: -30px;
+    }
+
+    div.activites .ski{
+        margin-left: -15px;
+    }
+
+    div.activites .paysage{
+        margin-left: -18px;
+    }
+
+    div.activites .aurora2{
+        margin-left: -22px;
+    }
+
+    div.un{
+        margin-right: 1000px;
+    }
+
+    div.activites img.chien{
+        width: 350px;
+    }
+    
+    div.activites .un{
+        margin: 15px;
+    }
+
+    div.activites .deux{
+        margin: 15px;
+    }
+
+    div.activites .trois{
+        margin: 15px;
+    }
+
+    div.activites .quatre{
+        margin: 15px;
+    }
+
+    div.activites .cinq{
+        margin: 15px;
+    }
+
+    div.activites .six{
+        margin: 15px;
+    }
+
+    body{
+        background-size: cover;
+    }
+
+}
