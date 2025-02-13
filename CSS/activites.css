@@ -297,6 +297,19 @@ h1.titre{
         box-sizing: border-box;
     }
     
+    #menu{
+        width: 500px;
+        height: 80px;
+        flex-direction: row;
+        margin-right: -80px;
+        margin-top: 20px;
+        padding: 0px;
+    }
+
+    #menu li{
+        width: 70px;
+    }
+
     html, body {
         overflow-x: hidden;
         width: 100%;

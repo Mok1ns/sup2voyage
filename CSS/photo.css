@@ -294,6 +294,19 @@ p{
         width: 100px;
     }
 
+    #menu{
+        width: 500px;
+        height: 80px;
+        flex-direction: row;
+        margin-right: -80px;
+        margin-top: 20px;
+        padding: 0px;
+    }
+
+    #menu li{
+        width: 70px;
+    }
+
     p {
         font-size: 14px;
         text-align: center;
@@ -302,7 +315,7 @@ p{
 
     div.burger {
         margin-left: 230px;
-        margin-bottom: -100px;
+        margin-bottom: -70px;
     }
 
     div.bloc {

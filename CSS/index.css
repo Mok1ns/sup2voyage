@@ -458,7 +458,20 @@ p{
         display: block;
         cursor: pointer;
         width: 150px;
-        margin-left: 150px;
+        margin-right: 620px;
+    }
+
+    #menu{
+        width: 500px;
+        height: 80px;
+        flex-direction: row;
+        margin-right: -80px;
+        margin-top: 120px;
+        padding: 0px;
+    }
+
+    #menu li{
+        width: 70px;
     }
 
     .text h1 {
