@@ -42,6 +42,7 @@ div.text{
     margin-top: 100px;
     text-align: center;
     color: white;
+    font-size: 25px;
 }
 
 div.boutton {
@@ -234,13 +235,11 @@ button.Aide{
 }
 
 .backback{
-    background-color: red;
     margin-bottom: -90px;
     width: 101%;
     margin-left: -10px;
-    height: 2400px;
+    height: 2200px;
     background-image: url("../Images/shutterstock_Pinterest_Northern_Lights_Lofoten_Piotr_Krzeslak_98f03200-5341-47f6-b543-f377058406ae.jpg");
-    margin-top: 10px;
 }
 
 .hrhr{
@@ -252,6 +251,11 @@ button.Aide{
     color: white;
 }
 
+.hrhrhr{
+    width: 1000px;
+    margin-top: 80px;
+}
+
 .info {
     background-color: #34495E;
     display: flex;
@@ -261,9 +265,9 @@ button.Aide{
     max-width: 80%;
     margin: auto;
     color: white;
-    border-radius: 120px;
+    border-radius: 10px;
     position: relative;
-    top: 150px;
+    top: 40px;
     background-image: url("../Images/flou2.png");
     background-size: cover;
 }
@@ -277,8 +281,8 @@ button.Aide{
     max-width: 80%;
     margin: auto;
     color: white;
-    border-radius: 120px;
-    margin-top: 300px;
+    border-radius: 10px;
+    margin-top: 40px;
     background-image: url(../Images/moose-7571491_1280.webp);
     background-size: cover;
 }
@@ -292,8 +296,8 @@ button.Aide{
     max-width: 80%;
     margin: auto;
     color: white;
-    border-radius: 120px;
-    margin-top: 130px;
+    border-radius: 10px;
+    margin-top: 40px;
     background-image: url("../Images/flou3.png");
     background-size: cover;
     background-position: 10px;
@@ -309,8 +313,8 @@ button.Aide{
     max-width: 80%;
     margin: auto;
     color: white;
-    border-radius: 120px;
-    margin-top: 120px;
+    border-radius: 10px;
+    margin-top: 40px;
     background-image: url("../Images/flou1.png");
     background-size: cover;
     background-position: 0px;
@@ -558,7 +562,8 @@ p{
     }
 
     div.burger {
-        display: none;
+        margin-left: 230px;
+        margin-bottom: -100px;
     }
 
     .backback {

@@ -506,7 +506,8 @@ p{
     }
 
     div.burger {
-        display: none;
+        margin-left: 230px;
+        margin-bottom: -100px;
     }
 
     #content {

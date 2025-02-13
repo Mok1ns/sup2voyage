@@ -297,9 +297,10 @@ h1{
     }
 
     div.burger {
-        display: none;
+        margin-left: 230px;
+        margin-bottom: -100px;
     }
-
+    
     .barret {
         width: 200px;
         margin-left: 110px;
