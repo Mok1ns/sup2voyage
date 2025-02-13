@@ -50,26 +50,53 @@ div.boutton {
     align-items: center; 
     gap: 20px; 
     height: 100px;
-    width: 100%;   
+    width: 100%;
+
 }
 
 button.Reserver{
     border-radius: 10px;
     width: 300px;
-    height: 55px;
+    height: 45px;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(50, 128, 85);
     font-weight: bold;
     margin: 10px;
     color: white;
     background-image: url(../Images/ce84a14d1662148470a069f52baad97b.gif);
     cursor: pointer;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
+button.Reserver:hover{
+    color: rgb(42, 185, 42);
+    transform: scale(1.03);
+    transition: 10;  
+}
+
+button.Qui:hover{
+    color: rgb(42, 185, 42);
+    transform: scale(1.03);
+    transition: 10;  
+}
+
+button.Contact:hover{
+    color: rgb(42, 185, 42);
+    transform: scale(1.03);
+    transition: 10;  
+}
+
+button.Aide:hover{
+    color: rgb(42, 185, 42);
+    transform: scale(1.03);
+    transition: 10;  
+}
 
 button.Qui{
     border-radius: 10px;
-    height: 55px;
+    height: 45px;
     width: 300px;
     padding: 10px;
     background-color: white;
@@ -79,12 +106,14 @@ button.Qui{
     background-image: url(../Images/cc1a75182191440e4ceeb437f0d0609a.gif);
     color: white;
     cursor: pointer;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button.Contact{
     border-radius: 10px;
     width: 300px;
-    height: 55px;
+    height: 45px;
     padding: 10px;
     background-color: white;
     border-color: #34495E;
@@ -95,13 +124,15 @@ button.Contact{
     color: whitesmoke;
     background-size: cover;
     cursor: pointer;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button.Aide{
     text-align: center;
     border-radius: 10px;
     width: 300px;
-    height: 55px;
+    height: 45px;
     padding: 10px;
     background-color: white;
     border-color: #34495E;
@@ -110,6 +141,8 @@ button.Aide{
     color : white;
     background-image: url(../Images/aurora-borealis-loop2.gif);
     cursor: pointer;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
